@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.nav {
+    background-color: #0E0D0D;
+    color: white;
+}
+
+.nav-link {
+    border-bottom: 5px solid transparent;
+    color: white;
+    font-size: 14px;
+    transition: 0.35s;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid #ffffff;
+    color: white;
+}
+
+.logo {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.col-6 {
+    right: 0;
+}
+
+.bg-top {
+    background-image: url(homepage/img/bg-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 90vh;
+}
+
+.col h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ece1e1;
+    font-size: 4em;
+    padding-top: 100px;
+}
+
+.col p, .blog-tumss p {
+    color: #ece1e1;
+    padding-top: 17px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#ffffff;
+    border-color: transparent;
+    color: black;
+    font-size: 15px;
+    padding: 6px 25px;
+}
+
+.btn:hover {
+    background-color: #777777;
+    border-color: transparent;
+    color: white;
+}
+
+.bg-gray {
+    background-image: url(homepage/img/bg-gray.jpg);
+    background-size: cover;
+}
+
+.container .blog {
+    max-width: 100%;
+}
+
+.col h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    color: white;
+}
+
+.col-3 .col, .blog-tumss {
+    background-color: #161313;
+} 
+
+.col-3 h6, .blog-tumss h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.col-3 p, .blog-tumss p{
+    color: #d8d8d8;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.col .data, .blog-tumss .data {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    background:transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 4px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+
+}
+
+.bg-black {
+    background-color: #0e0d0d;
+    color: #ffffff;
+}
+
+.text p {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.contact p {
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.buttoncontact {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 9px 28px;
+    background-color: #777777;
+}
+
+.buttoncontact:hover {
+    text-decoration: none;
+    color: #d6d6d6;
+    background-color: #979595;
+}
+
+.bg-footer {
+    background-color: #0e0d0d;
+    align-items: center;
+}
+
+.bg-contact {
+    background-color: #111111;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:100%;
+}
+
+.form-label  {
+    color: #ffffff;  
+}
+
+.top-blog {
+    width: 100%;
+    position: relative;
+    min-height: 600px;
+    padding-bottom: 20px;
+}
+
+.top-image {
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode:lighten;
+	background-position: 50% top;
+}
+
+
+.top-image h6  {
+    width: 100%;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.top-image p {
+	width: 100%;
+    padding-left: 30px;
+    color: black;
+    font-size: 16px;
+}
+
+
+.blogs-header h5 {
+    color: black;
+    bottom: 5px;
+    font-size: 1.8em;
+}
+
+.all-blogs p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.all-blogs h6 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.data  {
+    font-size: 13px;
+}
+
+.page-img {
+    width: 100%;
+    position: relative;
+    min-height: 400px;
+    max-height: 600px;
+    padding-bottom: 20px;
+}
+
+.post h5 {
+    color: #000000;
+}
+
+.post p {
+    color: #000000;
+}
+
+.button-read {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 7px 35px;
+    background-color: #777777;
+}
+
+.button-read:hover {
+    text-decoration: none;
+    color: #d6d6d6;
+    background-color: #979595;
+}
+
+.card-header {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.facebook {
+    background-color: #4267B2;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 0px 100px;   
+}
+
+.facebook:hover {
+    background-color: rgb(89, 122, 187);
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.email {
+    background-color: rgb(44, 41, 41);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 10px 100px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.email:hover {
+    background-color: rgb(100, 100, 100);
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.btn-link {
+    color: black;
+}
+
+.registration {
+    background-color: rgb(160, 158, 158);
+    color: white;
+    font-size: 13px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 20px 137px;
+}
+
+.registration:hover {
+   background-color: rgb(107, 106, 106);
+   color: #ffffff;
+}
+
+.login-header p {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.form-control-inline {
+    padding-left: 0;
+}
+input[type=email] {
+    border-radius: 4px;
+    padding: 4px 25px;
+    font-size: 16px;
+  }
+
